@@ -14,7 +14,7 @@
     "coverage": "codecov"
   },
   "dependencies": {
-    "@jellyfish-commuting/fetchjson": "^1.0.5",
+    "@jellyfish-commuting/fetchjson": "^1",
     "@jellyfish-commuting/helpers": "^0.1.20",
     "node-fetch": "^2.6.1"
   },
