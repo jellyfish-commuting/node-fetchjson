@@ -7,6 +7,7 @@
 __*for internal use only - Just draft idea to easily fetch API in our apps*__
 
 # fetchjson
+Brings fetchjson to Node   
 _for more infos, see [fetchjson](https://https://github.com/jellyfish-commuting/fetch-json)_
 
 ### Install
