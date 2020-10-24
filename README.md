@@ -22,7 +22,7 @@ npm install @jellyfish-commuting/node-fetchjson
 ### Usage
 
 ```javascript
-import fetchjson from '@jellyfish-commuting/node-fetchjson';
+const fetchjson = require('@jellyfish-commuting/node-fetchjson');
 
-fetchjson('v1/users').then(payload => console.log(payload));
+fetchjson('https://myapi.io/v1/users').then(payload => console.log(payload));
 ```
