@@ -1,5 +1,5 @@
 {
-  "name": "@jellyfish-commuting/node-fetchjson",
+  "name": "@jollie/node-fetchjson",
   "description": "Fetch wrapper to easily request an API",
   "keywords": [
     "fetch",
@@ -14,7 +14,7 @@
     "coverage": "codecov"
   },
   "dependencies": {
-    "@jellyfish-commuting/fetchjson": "^1",
+    "@jollie/fetchjson": "^1",
     "node-fetch": "^2"
   },
   "devDependencies": {
@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jellyfish-commuting/node-fetchjson.git"
+    "url": "git://github.com/thejellyfish/node-fetchjson.git"
   },
   "bugs": {
-    "url": "https://github.com/jellyfish-commuting/node-fetchjson/issues"
+    "url": "https://github.com/thejellyfish/node-fetchjson/issues"
   },
-  "homepage": "https://github.com/jellyfish-commuting/node-fetchjson#readme",
+  "homepage": "https://github.com/thejellyfish/node-fetchjson#readme",
   "publishConfig": {
     "access": "public"
   },
