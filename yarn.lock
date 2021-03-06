@@ -883,17 +883,10 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
-"@jellyfish-commuting/fetchjson@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@jellyfish-commuting/fetchjson/-/fetchjson-1.0.5.tgz#e5f185d46260fc980c96a8aeb8ffd48151d13ceb"
-  integrity sha512-5HgTPJMX5g3nOtygPQrEBDgpgoudtL5mJ++n2PSEWMe9hIos6cQzDFcaO+nX700AJw+9eGPagGnbUjnaBuyiwQ==
-  dependencies:
-    "@jellyfish-commuting/helpers" "^0.1.20"
-
-"@jellyfish-commuting/helpers@^0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@jellyfish-commuting/helpers/-/helpers-0.1.20.tgz#7889458d3e7cdd5a3391f581bc0330f89fc1869f"
-  integrity sha512-rqdMSETjD1Pmqo+mPNKn0hpbzgXzUBpubYTYJzj8wSTUQM2EIBdUAQSXoF2QFBEeoYOsBE69qScSDL6U9HI6XQ==
+"@jellyfish-commuting/helpers@^1":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@jellyfish-commuting/helpers/-/helpers-1.0.3.tgz#2ef3bea57b7840b6b91786a48d42cfa3e1d0dd9d"
+  integrity sha512-y4skfz99s+KxGmRGiNtrhhK0xVMIu9ZchjOMVdTfm77G2v1I9abP+PnIg0WyZJpkRmTWU4Ef193vDSdP/AtEGw==
 
 "@jest/console@^25.5.0":
   version "25.5.0"
@@ -1094,6 +1087,13 @@
     "@types/node" "*"
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
+
+"@jollie/fetchjson@^2":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@jollie/fetchjson/-/fetchjson-2.0.3.tgz#28e282320b282ae8225dcee3682e40976242e7b6"
+  integrity sha512-xaZEybmk4WGOKv6g0G0lTRine5xad9BAPpOf7eT8ko25UMDVm+CFX3KP9i1VxYyPAHQbHSLBFLF8HzGkNFDszA==
+  dependencies:
+    "@jellyfish-commuting/helpers" "^1"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -3713,7 +3713,7 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-node-fetch@^2.6.1:
+node-fetch@^2, node-fetch@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==

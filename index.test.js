@@ -1,4 +1,4 @@
-const fetchjson = require('./index');
+const fetchjson = require('./index')();
 
 // Start tests ...
 /* eslint-disable no-undef */
