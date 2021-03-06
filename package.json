@@ -7,14 +7,14 @@
     "api"
   ],
   "license": "MIT",
-  "author": "thejellyfish <the@jellyfish-commuting.com>",
+  "author": "thejellyfish <mohamed@facturebook.com>",
   "main": "index.js",
   "scripts": {
     "test": "jest --forceExit",
     "coverage": "codecov"
   },
   "dependencies": {
-    "@jollie/fetchjson": "^1",
+    "@jollie/fetchjson": "^2",
     "node-fetch": "^2"
   },
   "devDependencies": {
